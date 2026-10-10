@@ -3,9 +3,9 @@
 [![Tests](https://github.com/carreypro/ict-trading-model/actions/workflows/test.yml/badge.svg)](https://github.com/carreypro/ict-trading-model/actions/workflows/test.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-A Codex skill for structured ICT/SMC market analysis, chart review, and setup validation.
+A Codex skill that combines multi-timeframe bias, liquidity mapping, premium/discount location, session context, displacement, market structure, and PD arrays into a strict ICT/SMC setup-validation framework. It supports chart screenshots, live candles, and OHLCV JSON across bullish, bearish, and no-trade scenarios. Every analysis returns one auditable status—`confirmed`, `developing`, `invalidated`, or `no-trade`—with the supporting evidence, exact trigger, structural invalidation, liquidity target, and estimated reward to risk.
 
-The skill does not label a trade simply because an FVG or an opposing candle appears. It evaluates the complete evidence chain:
+Its core advantage is evidence-gated planning: an FVG, order block, or opposing candle cannot create a trade signal by itself. The complete sequence must be evaluated:
 
 ```text
 Higher-timeframe bias
@@ -19,7 +19,17 @@ Higher-timeframe bias
 → Risk-to-reward validation
 ```
 
-It produces analysis and conditional trade plans only. It never executes orders.
+The skill produces analysis and conditional trade plans only. It never executes orders.
+
+## What It Delivers
+
+| Capability | Output |
+| --- | --- |
+| Multi-timeframe context | Bias, dealing range, liquidity objective, and premium/discount location |
+| Setup validation | Sweep, displacement, strict FVG, close-confirmed MSS/BOS, and retracement evidence |
+| Execution planning | Exact trigger, structural invalidation, target liquidity, and reward to risk |
+| Decision control | One status: `confirmed`, `developing`, `invalidated`, or `no-trade` |
+| Auditability | Observed, derived, interpretive, and missing evidence kept separate |
 
 ## Installation
 

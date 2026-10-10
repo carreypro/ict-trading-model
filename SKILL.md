@@ -1,14 +1,13 @@
 ---
 name: ict-trading-model
 description: >-
-  Analyze liquid markets with ICT/SMC concepts and strictly validate an ICT
-  setup: higher-timeframe bias, liquidity sweep, displacement, market
-  structure shift, FVG/OB/Breaker retrace, premium-discount location, kill-zone
-  timing, invalidation, target liquidity, and risk-reward. Use when the user
-  explicitly asks for ICT, Inner Circle Trader, Smart Money Concepts, liquidity
-  raids, FVG, order blocks, breaker blocks, OTE, MSS, or an ICT trade model.
-  Do not use for generic indicator analysis, order execution, or unsupported
-  claims about institutional intent.
+  Analyze liquid markets with a strict ICT/SMC framework that combines
+  multi-timeframe bias, liquidity sweeps, displacement, close-confirmed
+  MSS/BOS, FVG/OB/Breaker/OTE retracements, premium-discount location, session
+  timing, invalidation, targets, and risk-to-reward. Use for ICT chart reviews,
+  live-market analysis, OHLCV scans, or validating a user's trade thesis.
+  Return an auditable setup status and conditional plan; do not use for generic
+  indicator analysis, order execution, or claims of proven institutional intent.
 ---
 
 # ICT Trading Model

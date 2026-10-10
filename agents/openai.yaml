@@ -1,4 +1,4 @@
 interface:
   display_name: "ICT Trading Model"
-  short_description: "Validate ICT liquidity-sweep and FVG setups"
-  default_prompt: "Use $ict-trading-model to analyze these candles with the strict ICT setup and return a conditional plan."
+  short_description: "Validate ICT setups and build conditional trade plans"
+  default_prompt: "Use $ict-trading-model to validate this market setup with strict ICT evidence and return one status, an exact trigger, invalidation, target, and risk-to-reward."
