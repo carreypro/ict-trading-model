@@ -1,0 +1,4 @@
+interface:
+  display_name: "ICT Trading Model"
+  short_description: "Validate ICT liquidity-sweep and FVG setups"
+  default_prompt: "Use $ict-trading-model to analyze these candles with the strict ICT setup and return a conditional plan."
